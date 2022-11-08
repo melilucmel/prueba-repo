@@ -1,0 +1,82 @@
+* {
+    Margin:0;
+    padding:0;
+    
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.h-clase1 {color: rgba(137, 43, 226, 0.833);
+    font-size: 20px;
+
+}
+
+h1 {color: rgba(241, 226, 10, 0.985);
+    background-color: aquamarine;
+    text-align: center;
+}
+
+body a {
+    color:rgba(10, 2, 79, 0.833);
+    text-align: center;
+}
+
+.divImg {
+border: 0px solid rgba(184, 215, 7, 0.816);   
+display: flex; 
+}
+
+body main h4 {
+    color:rgb(233, 102, 50);
+    font-size: 20px;
+}
+
+
+main h4 ul {
+    color:rgba(255, 102, 0, 0.896)
+}
+
+#form {
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    }
+
+#pie {border: 1px solid rgba(157, 255, 0, 0.866);
+        width: 400px;
+        background-color: beige;
+        text-align: center;
+        height: 400px;
+
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+
+        padding: 3px 10px 30px 20px;
+     }
+    
+footer article {
+        padding: 3px;
+        display: inline-block;
+        font-size: 20px;
+        font-family: Arial;
+
+        }
+
+        .form {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+.pruebaVer {text-decoration: none;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;}
+
+body {
+
+}
+

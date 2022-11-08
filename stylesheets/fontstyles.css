@@ -1,0 +1,33 @@
+.normal {
+    font-style: normal;
+    }
+
+.italica {
+    font-style: italic;
+    }
+
+
+.negrita {
+    font-weight: bold;
+    }
+    
+.normal {
+    font-weight: normal;
+    }
+
+.textoGrande {
+    font-size: 20px;
+    }
+
+.textoRelativo {
+    font-size: 200%;
+    }
+
+.impact {
+    font-family:Impact, sans-serif;
+    }
+
+.comicSans {
+    font-family: "Comic Sans MS",
+        sans-serif;
+    }
