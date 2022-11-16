@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+   
+    <script defer src="https://kit.fontawesome.com/bc2ab41c9f.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
     <title>Ventana al Mundo</title>
 
@@ -25,6 +34,9 @@
                  <h2 class="h-clase1">Un sitio creado para compartir información, experiencias y recomendaciones del mundo entero, te invito a recorrer juntos las experiencias que en este sitio web me propongo a compartirte, y quiero invitarte a pasear por el mundo a través de mis experiencias!</h2>
 
          <nav>
+            <div>
+                <i class="fa-sharp fa-solid fa-bars" aria-setsize="50px"></i>
+            </div>
              <ul>
                 <li>
                 <a href="/index.html">Inicio</a>
@@ -46,13 +58,39 @@
     </header>
 
 
-    <main>
+    <main> 
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" > 
+          <div class="carousel-item active" >
+            <img src="/images/paisaje de playa.jpg" class="d-block w-70" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/paisaje de canoa y playa.jpg" class="d-block w-70" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/paisaje de mar al atardecer.jpg" class="d-block w-70" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/beach-g477b5fb05_640.jpg" class="d-block w-70" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
         <h3 class="h-clase1">
         ¡Hola! Soy Mile, una viajera incansable, mi modo de vida es la de la mejor nómade. Me gusta vivir experiencias nuevas a cada momento, buscadora de la esencia de las personas, las cosas y nuestro entorno. Creo en la energía, el medioambiente y en las personas!  
         </h3>
 
 
         <h4>
+          
             En esta web vas a encontrar:
             <ul>
                 <li>Guias Viajeras</li>
@@ -74,7 +112,7 @@
             </div>
 
 <hr>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26098011.612447426!2d-81.660497283762!3d-37.01474791027243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses-419!2sar!4v1666652815433!5m2!1ses-419!2sar" width="560" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26098011.612447426!2d-81.660497283762!3d-37.01474791027243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses-419!2sar!4v1666652815433!5m2!1ses-419!2sar" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
 <hr>
@@ -92,30 +130,11 @@
             <h4>¡Suscribíte! Completando el siguiente formulario</h4> 
             
             <div> 
-            <label for="nombre y apellido">Nombre y Apellido:</label> 
-            <input type="text" name="nombre y apellido" id="" /> 
-            </div> 
-            <div class="pruebaVer">
-                <div>Mujer
-                </div>
-                <input type="radio"name="Género"value="Mujer"/>
-                <div>Varón</div>
-                <input type="radio"name="Género"value="Varón"/>
-                <div>Otro</div>
-                <input type="radio"name="Género"value="Otro"/>
-                  
-            </div>
-            
-            <div> 
-            <label for="celular">Número de Celular:</label> 
-            <input type="number" name="celular" id="" /> 
-            </div> 
-
-            <div> 
-            <label for="email">Email</label> 
-            <input type="email" name="email" id="" /> 
-            </div> 
-            
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+         
             <div> 
             <button type="submit">Enviar Formulario</button> 
             <button type="reset">Limpiar Info</button> </div> 

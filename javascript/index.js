@@ -24,3 +24,16 @@ let salida = entrada + " " + "ingresado"; */
 
 /* console.log(salida) */
 /* alert("Hola a Tod@s") */
+
+
+/* 
+
+let entryNumber = prompt("Ingrese un valor numérico: ");
+
+if(entryNumber > 1000) {
+    alert("El número es mayor a 1000")
+}else{
+    alert("El número es menor o igual a 1000");
+}
+
+ */

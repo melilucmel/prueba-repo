@@ -1,10 +1,11 @@
 * {
-    Margin:0;
+   /*  Margin:0;
     padding:0;
-    
-    width: 100%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+     */
+     font-family: 'Caveat', cursive;
 }
+
+
 
 .h-clase1 {color: rgba(137, 43, 226, 0.833);
     font-size: 20px;
@@ -26,57 +27,40 @@ border: 0px solid rgba(184, 215, 7, 0.816);
 display: flex; 
 }
 
-body main h4 {
-    color:rgb(233, 102, 50);
-    font-size: 20px;
+body header nav ul {
+    color:rgb(0, 0, 0);
+    font-size: 21px;
+    display:flex;
+    justify-content:space-evenly;
 }
 
 
 main h4 ul {
-    color:rgba(255, 102, 0, 0.896)
+    color:rgba(255, 102, 0, 0.896);
+    font-size: 20px;
 }
 
-#form {
-    justify-content: center;
-    align-items: center;
-}
+
 
 ul {
     list-style-type: none;
     }
 
-#pie {border: 1px solid rgba(157, 255, 0, 0.866);
-        width: 400px;
-        background-color: beige;
-        text-align: center;
-        height: 400px;
 
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        margin-left: 1px;
+#form {
+        justify-content: center;
+        align-items: center;
+    }
 
-        padding: 3px 10px 30px 20px;
-     }
-    
-footer article {
-        padding: 3px;
-        display: inline-block;
-        font-size: 20px;
-        font-family: Arial;
 
-        }
-
-        .form {
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-        }
 
 .pruebaVer {text-decoration: none;
 display: flex;
-flex-direction: column;
+flex-direction:row;
 justify-content: flex-start;}
 
 body {
 
 }
 
+.index-header
